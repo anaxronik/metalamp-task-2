@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx webpack --mode=production",
     "build:watch": "npx webpack --watch",
-    "start": "webpack serve --open"
+    "start": "webpack serve"
   },
   "repository": {
     "type": "git",
