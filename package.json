@@ -2,9 +2,11 @@
   "name": "metalamp-task-2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx webpack",
+    "build:watch": "npx webpack --watch",
+    "start": "webpack serve --open"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/anaxronik/metalamp-task-2/issues"
   },
-  "homepage": "https://github.com/anaxronik/metalamp-task-2#readme"
+  "homepage": "https://github.com/anaxronik/metalamp-task-2#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "pug-loader": "^2.4.0",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
 }
