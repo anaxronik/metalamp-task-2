@@ -6,7 +6,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 const PATHS = {
   src: path.join(__dirname, './src'),
-  dist: path.join(__dirname, './docs'),
+  dist: path.join(__dirname, './dist'),
   assets: 'assets/',
 }
 
@@ -20,7 +20,7 @@ module.exports = {
   mode: 'development',
   output: {
     filename: `${PATHS.assets}scripts/[name].js`,
-    path: path.resolve(__dirname, 'docs'),
+    path: path.resolve(__dirname, PATHS.dist),
     clean: true,
   },
   plugins: [
