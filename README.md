@@ -5,6 +5,10 @@
 - Сверстанный ui kit
   https://anaxronik.github.io/metalamp-task-2/uikit
 
+  ## Макет Figma
+
+  https://www.figma.com/file/MumYcKVk9RkKZEG6dR5E3A/MetaLamp-(former-FSD)-frontend-education-program.-The-2nd-task?node-id=0%3A1
+
 ## Требования к верстке:
 
 - Вся вёрстка должна быть выложена на Github в ваш публичный репозиторий, результатом задачи будет как раз этот репозиторий. Под каждый проект создаём новый репозиторий. Присылать ссылку на него необязательно, это можно будет сделать только в пятом задании в личные сообщения организатору.
